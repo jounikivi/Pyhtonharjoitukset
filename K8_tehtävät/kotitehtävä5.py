@@ -3,7 +3,7 @@
 def kaksi_kuviota(ttl, trn, fwd):
     
     ttl.color("black")    
-    ttl.pensize(1.5)
+    ttl.pensize(3)
     ttl.speed(10)
 
     ttl.penup()          
@@ -17,13 +17,13 @@ def kaksi_kuviota(ttl, trn, fwd):
 import turtle
 
 wn = turtle.Screen()        
-wn.bgcolor("lightgreen")
+wn.bgcolor("red")
 wn.title("kaksi kuviota")
 
 piirä = turtle.Turtle()          
-kaksi_kuviota(piirä, 90, -150)   
+kaksi_kuviota(piirä, 90, -150)
 
-alex = turtle.Turtle()         
-kaksi_kuviota(piirä, 89, 150)    
+piirä2 = turtle.Turtle()         
+kaksi_kuviota(piirä2, 89, 150)    
 
 wn.mainloop()   
